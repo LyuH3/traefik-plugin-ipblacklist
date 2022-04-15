@@ -52,7 +52,7 @@ func CreateConfig() *IPBlackList {
 	return &IPBlackList{
 		SourceRange: nil,
 		IPStrategy: &IPStrategy{
-			Depth:       1,
+			Depth:       0,
 			ExcludedIPs: nil,
 		},
 	}
